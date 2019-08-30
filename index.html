@@ -8,43 +8,54 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
     <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
+
+
+
+
+<!--- Siden du sjekker kildekoden så kan jeg opplyse om at siden ble laget i Bootstrap :) ----->
+
+
+
 
 <body>
     <div class="highlight-clean">
         <div class="container">
             <div class="intro">
                 <h2 class="text-center">Mikael Peter Svanåsbakken</h2>
-                <p class="text-center">Kotlin - Swift- React - HTML5 - CSS - Javascript</p>
+                <p class="text-left">&nbsp;Studerer for øyeblikket Frontend- og mobilutvikling bachelour på Høyskolen Kristiania og arbeider deltid @ Itera</p>
             </div>
-            <div class="buttons"></div>
         </div>
+        <p class="text-center">Hovedspråk: HTML, CSS, Javascript, Kotlin, Swift</p>
+        <p class="text-center"></p>
+        <p class="text-center">Frameworks: Ionic, React</p>
+        <p class="text-center"></p>
     </div>
-    <div class="article-list">
+    <div class="features-boxed">
         <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Lorem Ipsum</h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+            <div class="intro"></div>
+            <div class="row justify-content-center features">
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div data-bs-hover-animate="jello" class="box"><i class="fa fa-git icon"></i>
+                        <h3 class="name">Prosjekter</h3>
+                        <p class="description">Du kan ta en titt på noe av det jeg har arbeidet på, liggende på min GitHub.&nbsp;</p><a class="learn-more" href="https://github.com/MikaelSvanasbakken">Gå til Github</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box" style="height: 343px;padding: 14px;"><i class="fa fa-linkedin icon"></i>
+                        <h3 class="name">Arbeidserfaring &amp; Skills</h3>
+                        <p class="description">Ta en titt på LinkedIn profilen min om du vil connecte eller bare se på arbeidserfaringen min samt se på litt skills</p><a class="learn-more" href="https://www.linkedin.com/in/msvanaas/">Gå til LinkedIn</a></div>
+                </div>
             </div>
-            <div class="row articles">
-                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/desk.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
-                <div
-                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/building.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
-            <div
-                class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/loft.jpg"></a>
-                <h3 class="name">Article Title</h3>
-                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
-    </div>
-    </div>
+        </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
 </body>
 
 </html>
